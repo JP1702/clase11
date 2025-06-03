@@ -508,7 +508,7 @@ document.querySelectorAll("select")[0].addEventListener("change", (event) => {
     var notas = [];
     var notasPrevias = [];
     datos(event.target.value).catch((error) => console.error(error));
-    if(event.target.value == "Vielma Laguna, Mitzi"){
+    if(event.target.value == "Zorzano Betancourt, Osvaldo"){
         document.querySelector("#primera").classList.add("esconde");
         document.querySelector("#segunda").classList.remove("esconde")
     } else {
