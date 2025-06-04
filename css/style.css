@@ -267,7 +267,7 @@ div.otro{
 
 
 div.info{
-    background:yellow;
+    background:white;
 }
 
 div.info div.medio{
@@ -278,4 +278,8 @@ div.info div.medio{
 div.info div.completo{
     with:100%;
     clear:both;
+}
+
+div.completo img, div.medio img, div.completo object, div.medio obj{
+    max-width: 100%
 }
